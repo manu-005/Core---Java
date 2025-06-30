@@ -1,0 +1,87 @@
+class Apartment {
+    static String name;
+    static String location;
+    static int totalFlats;
+    static int floors;
+    static boolean hasLift;
+    static boolean parkingAvailable;
+    static boolean securityAvailable;
+    static boolean cctvAvailable;
+    static String builderName;
+    static boolean gymAvailable;
+    static boolean swimmingPool;
+    static String apartmentType;
+    static boolean solarPower;
+    static boolean childrenPlayArea;
+    static boolean waterSupply24x7;
+    static boolean intercomFacility;
+    static String maintenanceCompany;
+    static int constructionYear;
+    static String apartmentId;
+    static boolean petFriendly;
+
+    public static void main(String[] ar) {
+
+        System.out.println("--------------default value -------");
+        System.out.println("Apartment: " + name);
+        System.out.println("Location:"+location);
+        System.out.println("Flats: " + totalFlats);
+        System.out.println("Floors :"+floors);
+        System.out.println("It is PET Friendly " + petFriendly);
+        System.out.println("Apartment ID :" + apartmentId);
+        System.out.println("Construction year : " + constructionYear);
+        System.out.println("Maintainance Company :" + maintenanceCompany);
+        System.out.println("is there Solar Power:" + solarPower);
+        System.out.println("Children Play Area is there :" + childrenPlayArea);
+        System.out.println("InterCom Facility :" + intercomFacility);
+        System.out.println("Water Supply 24X7 :" + waterSupply24x7);
+        System.out.println("Builder Name :" + builderName);
+        System.out.println("CCTV Available : " + cctvAvailable);
+        System.out.println("Swimming Available : " + swimmingPool);
+        System.out.println("GYM Available : " + gymAvailable);
+        System.out.println("Apartment Type:" + apartmentType);
+        System.out.println("Security Available :" + securityAvailable);
+        System.out.println("Has Lift :" + hasLift);
+        System.out.println("ParkingAvailable :" + parkingAvailable);
+        System.out.println("------------Actual Value--------------------");
+        name = "Sunrise Residency";
+        location = "Pune";
+        totalFlats = 120;
+        floors = 10;
+        hasLift = true;
+        parkingAvailable = true;
+        securityAvailable = true;
+        cctvAvailable = true;
+        builderName = "ABC Constructions";
+        gymAvailable = true;
+        swimmingPool = true;
+        apartmentType = "2BHK";
+        solarPower = true;
+        childrenPlayArea = true;
+        waterSupply24x7 = true;
+        intercomFacility = true;
+        maintenanceCompany = "XYZ Maintainers";
+        constructionYear = 2018;
+        apartmentId = "SR-BlockA-101";
+        petFriendly = true;
+
+        System.out.println("Apartment: " + name + ", Location: " + location);
+        System.out.println("Flats: " + totalFlats + ", Floors: " + floors);
+        System.out.println("It is PET Friendly " + petFriendly);
+        System.out.println("Apartment ID :" + apartmentId);
+        System.out.println("Construction year : " + constructionYear);
+        System.out.println("Maintainance Company :" + maintenanceCompany);
+        System.out.println("is there Solar Power:" + solarPower);
+        System.out.println("Children Play Area is there :" + childrenPlayArea);
+        System.out.println("InterCom Facility :" + intercomFacility);
+        System.out.println("Water Supply 24X7 :" + waterSupply24x7);
+        System.out.println("Builder Name :" + builderName);
+        System.out.println("CCTV Available : " + cctvAvailable);
+        System.out.println("Swimming Available : " + swimmingPool);
+        System.out.println("GYM Available : " + gymAvailable);
+        System.out.println("Apartment Type:" + apartmentType);
+        System.out.println("Security Available :" + securityAvailable);
+        System.out.println("Has Lift :" + hasLift);
+        System.out.println("ParkingAvailable :" + parkingAvailable);
+    }
+}

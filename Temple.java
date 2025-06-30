@@ -1,0 +1,90 @@
+class Temple {
+    static String name;
+    static String location;
+    static String deity;
+    static String architectureStyle;
+    static String history;
+    static boolean entryFree;
+    static int priestsCount;
+    static String openingTime;
+    static String closingTime;
+    static boolean hasParking;
+    static boolean hasPrasadam;
+    static boolean hasAccommodation;
+    static String festival;
+    static String managingTrust;
+    static boolean CCTVInstalled;
+    static boolean onlineDonation;
+    static boolean poojaOnlineBooking;
+    static int dailyVisitors;
+    static boolean shoeStandAvailable;
+    static boolean meditationHall;
+
+    public static void main(String[] ar) {
+        System.out.println("--------Default Values--------");
+        System.out.println("Temple Name: " + name);
+        System.out.println("Location: " + location);
+        System.out.println("Deity: " + deity);
+        System.out.println("Architecture: " + architectureStyle);
+        System.out.println("History: " + history);
+        System.out.println("Entry Free: " + entryFree);
+        System.out.println("Priests Count: " + priestsCount);
+        System.out.println("Opening Time: " + openingTime);
+        System.out.println("Closing Time: " + closingTime);
+        System.out.println("Has Parking: " + hasParking);
+        System.out.println("Has Prasadam: " + hasPrasadam);
+        System.out.println("Has Accommodation: " + hasAccommodation);
+        System.out.println("Festival: " + festival);
+        System.out.println("Managing Trust: " + managingTrust);
+        System.out.println("CCTV Installed: " + CCTVInstalled);
+        System.out.println("Online Donation: " + onlineDonation);
+        System.out.println("Pooja Booking Online: " + poojaOnlineBooking);
+        System.out.println("Daily Visitors: " + dailyVisitors);
+        System.out.println("Shoe Stand: " + shoeStandAvailable);
+        System.out.println("Meditation Hall: " + meditationHall);
+
+        System.out.println("--------Actual Values--------");
+        name = "Somnath Temple";
+        location = "Veraval, Gujarat";
+        deity = "Lord Shiva";
+        architectureStyle = "Chalukya";
+        history = "Reconstructed several times, last in 1951";
+        entryFree = true;
+        priestsCount = 15;
+        openingTime = "6:00 AM";
+        closingTime = "9:00 PM";
+        hasParking = true;
+        hasPrasadam = false;
+        hasAccommodation = false;
+        festival = "Maha Shivaratri";
+        managingTrust = "Shree Somnath Trust";
+        CCTVInstalled = true;
+        onlineDonation = true;
+        poojaOnlineBooking = false;
+        dailyVisitors = 8000;
+        shoeStandAvailable = true;
+        meditationHall = false;
+
+        System.out.println("Temple Name: " + name);
+        System.out.println("Location: " + location);
+        System.out.println("Deity: " + deity);
+        System.out.println("Architecture: " + architectureStyle);
+        System.out.println("History: " + history);
+        System.out.println("Entry Free: " + entryFree);
+        System.out.println("Priests Count: " + priestsCount);
+        System.out.println("Opening Time: " + openingTime);
+        System.out.println("Closing Time: " + closingTime);
+        System.out.println("Has Parking: " + hasParking);
+        System.out.println("Has Prasadam: " + hasPrasadam);
+        System.out.println("Has Accommodation: " + hasAccommodation);
+        System.out.println("Festival: " + festival);
+        System.out.println("Managing Trust: " + managingTrust);
+        System.out.println("CCTV Installed: " + CCTVInstalled);
+        System.out.println("Online Donation: " + onlineDonation);
+        System.out.println("Pooja Booking Online: " + poojaOnlineBooking);
+        System.out.println("Daily Visitors: " + dailyVisitors);
+        System.out.println("Shoe Stand: " + shoeStandAvailable);
+        System.out.println("Meditation Hall: " + meditationHall);
+
+    }
+}

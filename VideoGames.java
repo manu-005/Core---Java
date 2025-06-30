@@ -1,0 +1,85 @@
+class VideoGames {
+     static String title;
+    static String genre ;
+    static String platform ;
+    static String developer ;
+    static String publisher;
+    static String releaseDate ;
+    static boolean isMultiplayer;
+    static boolean isOnline ;
+    static int ageRating;
+    static String gameMode;
+    static int fileSize ;
+    static boolean hasInAppPurchase;
+    static String graphicsType ;
+    static String engine;
+    static boolean supportsController;
+    static boolean mobileAvailable ;
+    static String language ;
+    static boolean storyMode ;
+    static boolean coOpMode;
+    static boolean crossPlatform ;
+    public static void main(String[] ar){
+          System.out.println("--------Default Values--------");
+        System.out.println("Game: " + title + " | Genre: " + genre + " | Platform: " + platform);
+    System.out.println("Is there Support Controller :"+supportsController);
+    System.out.println("Stroy Mode is there :"+storyMode);
+    System.out.println("Cross platform :"+crossPlatform);
+    System.out.println("CO-operation Mode:"+coOpMode);
+    System.out.println("Mobile available:"+mobileAvailable);
+    System.out.println("language:"+language);
+    System.out.println("engine:"+engine);
+    System.out.println("graphics type:"+graphicsType);
+    System.out.println("has in app purchase"+hasInAppPurchase);
+    System.out.println("file size:"+fileSize);
+    System.out.println("game mode"+gameMode);
+    System.out.println("developer "+developer);
+    System.out.println("publisher"+publisher);
+    System.out.println("ageRating"+ageRating);
+    System.out.println("releaseDate"+releaseDate);
+    System.out.println(" isOnline"+ isOnline);
+    System.out.println("isMultiplayer"+isMultiplayer);
+     System.out.println("--------Actual Values--------");
+     
+     title = "Pubg";
+    genre = "Action";
+     platform = "Laptop";
+     developer = "Me";
+     publisher = "Divakar";
+     releaseDate = "may 2026";
+     isMultiplayer = true;
+     isOnline = true;
+     ageRating = 18;
+     gameMode = "Fighter";
+     fileSize = 100;
+     hasInAppPurchase = true;
+     graphicsType = "3D";
+    engine = "IW Engine";
+     supportsController = true;
+     mobileAvailable = false;
+     language = "English";
+     storyMode = true;
+     coOpMode = true;
+     crossPlatform = true;
+
+    System.out.println("Game: " + title + " | Genre: " + genre + " | Platform: " + platform);
+    System.out.println("Is there Support Controller :"+supportsController);
+    System.out.println("Stroy Mode is there :"+storyMode);
+    System.out.println("Cross platform :"+crossPlatform);
+    System.out.println("CO-operation Mode:"+coOpMode);
+    System.out.println("Mobile available:"+mobileAvailable);
+    System.out.println("language:"+language);
+    System.out.println("engine:"+engine);
+    System.out.println("graphics type:"+graphicsType);
+    System.out.println("has in app purchase"+hasInAppPurchase);
+    System.out.println("file size:"+fileSize);
+    System.out.println("game mode"+gameMode);
+    System.out.println("developer "+developer);
+    System.out.println("publisher"+publisher);
+    System.out.println("ageRating"+ageRating);
+    System.out.println("releaseDate"+releaseDate);
+    System.out.println(" isOnline"+ isOnline);
+    System.out.println("isMultiplayer"+isMultiplayer);
+    }
+}
+

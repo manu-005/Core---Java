@@ -1,0 +1,90 @@
+class Projector {
+    static String brand;
+    static String model;
+    static int resolution;
+    static int brightness;
+    static int contrastRatio;
+    static boolean isPortable;
+    static boolean isSmart;
+    static int lampLife;
+    static int inputPorts;
+    static double price;
+    static String projectionType;
+    static String supportedFormats;
+    static boolean hasSpeakers;
+    static boolean remoteControl;
+    static double weight;
+    static String dimensions;
+    static int powerConsumption;
+    static boolean wallMountable;
+    static boolean threeDSupport;
+    static String color;
+
+    public static void main(String[] args) {
+        System.out.println("--------Default Values--------");
+        System.out.println("Is Portable :" + isPortable);
+        System.out.println("Price :" + price);
+        System.out.println("Inputs Ports :" + inputPorts);
+        System.out.println("LampLife:" + lampLife);
+        System.out.println("Is Smart :" + isSmart);
+        System.out.println("Brand:" + brand);
+        System.out.println("Model :" + model);
+        System.out.println("Resolution :" + resolution);
+        System.out.println("Brighness :" + brightness);
+        System.out.println("Constrast Rate :" + contrastRatio);
+        System.out.println("Colour :" + color);
+        System.out.println("3D Support :" + threeDSupport);
+        System.out.println("Wall Mounted :" + wallMountable);
+        System.out.println("power Consuption :" + powerConsumption);
+        System.out.println("Dimention :" + dimensions);
+        System.out.println("weight:" + weight);
+        System.out.println("Remote Controll :" + remoteControl);
+        System.out.println("Projection Type :" + projectionType);
+        System.out.println("Supported Formats:" + supportedFormats);
+        System.out.println("Has Speaker:" + hasSpeakers);
+        System.out.println("--------Actual Values--------");
+        brand = "Dell";
+        model = "D101";
+        resolution = 1080;
+        brightness = 100;
+        contrastRatio = 40;
+        isPortable = true;
+        isSmart = true;
+        lampLife = 5;
+        inputPorts = 4;
+        price = 40000.0;
+        projectionType = "Square";
+        supportedFormats = "HD, FHD, MP4";
+        hasSpeakers = false;
+        remoteControl = true;
+        weight = 2.5;
+        dimensions = "30cm x 40cm x 10cm";
+        powerConsumption = 20;
+        wallMountable = true;
+        threeDSupport = false;
+        color = "White";
+
+        System.out.println("Is Portable :" + isPortable);
+        System.out.println("Price :" + price);
+        System.out.println("Inputs Ports :" + inputPorts);
+        System.out.println("LampLife:" + lampLife);
+        System.out.println("Is Smart :" + isSmart);
+        System.out.println("Brand:" + brand);
+        System.out.println("Model :" + model);
+        System.out.println("Resolution :" + resolution);
+        System.out.println("Brighness :" + brightness);
+        System.out.println("Constrast Rate :" + contrastRatio);
+        System.out.println("Colour :" + color);
+        System.out.println("3D Support :" + threeDSupport);
+        System.out.println("Wall Mounted :" + wallMountable);
+        System.out.println("power Consuption :" + powerConsumption);
+        System.out.println("Dimention :" + dimensions);
+        System.out.println("weight:" + weight);
+        System.out.println("Remote Controll :" + remoteControl);
+        System.out.println("Projection Type :" + projectionType);
+        System.out.println("Supported Formats:" + supportedFormats);
+        System.out.println("Has Speaker:" + hasSpeakers);
+
+    }
+
+}
