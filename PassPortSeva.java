@@ -12,8 +12,6 @@ class PassPortSeva{
 		System.out.println("the given password is:"+PassPortSevaValidator.password);
 		System.out.println(" the Confirm Password is :"+cfmPwd);
 		
-
-		
 	}
 	
 }
