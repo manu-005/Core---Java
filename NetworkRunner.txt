@@ -1,0 +1,214 @@
+public class NetworkRunner {
+    public static void main(String[] args) {
+
+        Network network1 = new Network();
+        network1.name = "Airtel";
+        network1.type = "4G";
+        network1.speed = 50.0;
+        network1.country = "India";
+        network1.status = "Active";
+
+        System.out.println("\nNetwork Details:");
+        System.out.println("Name: " + network1.name);
+        System.out.println("Type: " + network1.type);
+        System.out.println("Speed: " + network1.speed + " Mbps");
+        System.out.println("Country: " + network1.country);
+        System.out.println("Status: " + network1.status);
+
+        Network network2 = new Network();
+        network2.name = "Jio";
+        network2.type = "5G";
+        network2.speed = 100.0;
+        network2.country = "India";
+        network2.status = "Active";
+
+        System.out.println("\nNetwork Details:");
+        System.out.println("Name: " + network2.name);
+        System.out.println("Type: " + network2.type);
+        System.out.println("Speed: " + network2.speed + " Mbps");
+        System.out.println("Country: " + network2.country);
+        System.out.println("Status: " + network2.status);
+
+        Network network3 = new Network();
+        network3.name = "BSNL";
+        network3.type = "3G";
+        network3.speed = 10.0;
+        network3.country = "India";
+        network3.status = "Inactive";
+
+        System.out.println("\nNetwork Details:");
+        System.out.println("Name: " + network3.name);
+        System.out.println("Type: " + network3.type);
+        System.out.println("Speed: " + network3.speed + " Mbps");
+        System.out.println("Country: " + network3.country);
+        System.out.println("Status: " + network3.status);
+
+        Network network4 = new Network();
+        network4.name = "Vodafone";
+        network4.type = "4G";
+        network4.speed = 40.0;
+        network4.country = "UK";
+        network4.status = "Active";
+
+        System.out.println("\nNetwork Details:");
+        System.out.println("Name: " + network4.name);
+        System.out.println("Type: " + network4.type);
+        System.out.println("Speed: " + network4.speed + " Mbps");
+        System.out.println("Country: " + network4.country);
+        System.out.println("Status: " + network4.status);
+
+        Network network5 = new Network();
+        network5.name = "T-Mobile";
+        network5.type = "5G";
+        network5.speed = 120.0;
+        network5.country = "USA";
+        network5.status = "Active";
+
+        System.out.println("\nNetwork Details:");
+        System.out.println("Name: " + network5.name);
+        System.out.println("Type: " + network5.type);
+        System.out.println("Speed: " + network5.speed + " Mbps");
+        System.out.println("Country: " + network5.country);
+        System.out.println("Status: " + network5.status);
+
+        Network network6 = new Network();
+        network6.name = "Verizon";
+        network6.type = "5G";
+        network6.speed = 150.0;
+        network6.country = "USA";
+        network6.status = "Active";
+
+        System.out.println("\nNetwork Details:");
+        System.out.println("Name: " + network6.name);
+        System.out.println("Type: " + network6.type);
+        System.out.println("Speed: " + network6.speed + " Mbps");
+        System.out.println("Country: " + network6.country);
+        System.out.println("Status: " + network6.status);
+
+        Network network7 = new Network();
+        network7.name = "AT&T";
+        network7.type = "4G";
+        network7.speed = 80.0;
+        network7.country = "USA";
+        network7.status = "Active";
+
+        System.out.println("\nNetwork Details:");
+        System.out.println("Name: " + network7.name);
+        System.out.println("Type: " + network7.type);
+        System.out.println("Speed: " + network7.speed + " Mbps");
+        System.out.println("Country: " + network7.country);
+        System.out.println("Status: " + network7.status);
+
+        Network network8 = new Network();
+        network8.name = "Orange";
+        network8.type = "4G";
+        network8.speed = 60.0;
+        network8.country = "France";
+        network8.status = "Active";
+
+        System.out.println("\nNetwork Details:");
+        System.out.println("Name: " + network8.name);
+        System.out.println("Type: " + network8.type);
+        System.out.println("Speed: " + network8.speed + " Mbps");
+        System.out.println("Country: " + network8.country);
+        System.out.println("Status: " + network8.status);
+
+        Network network9 = new Network();
+        network9.name = "Idea";
+        network9.type = "3G";
+        network9.speed = 20.0;
+        network9.country = "India";
+        network9.status = "Inactive";
+
+        System.out.println("\nNetwork Details:");
+        System.out.println("Name: " + network9.name);
+        System.out.println("Type: " + network9.type);
+        System.out.println("Speed: " + network9.speed + " Mbps");
+        System.out.println("Country: " + network9.country);
+        System.out.println("Status: " + network9.status);
+
+        Network network10 = new Network();
+        network10.name = "China Mobile";
+        network10.type = "5G";
+        network10.speed = 200.0;
+        network10.country = "China";
+        network10.status = "Active";
+
+        System.out.println("\nNetwork Details:");
+        System.out.println("Name: " + network10.name);
+        System.out.println("Type: " + network10.type);
+        System.out.println("Speed: " + network10.speed + " Mbps");
+        System.out.println("Country: " + network10.country);
+        System.out.println("Status: " + network10.status);
+
+        Network network11 = new Network();
+        network11.name = "NTT Docomo";
+        network11.type = "4G";
+        network11.speed = 70.0;
+        network11.country = "Japan";
+        network11.status = "Active";
+
+        System.out.println("\nNetwork Details:");
+        System.out.println("Name: " + network11.name);
+        System.out.println("Type: " + network11.type);
+        System.out.println("Speed: " + network11.speed + " Mbps");
+        System.out.println("Country: " + network11.country);
+        System.out.println("Status: " + network11.status);
+
+        Network network12 = new Network();
+        network12.name = "Movistar";
+        network12.type = "4G";
+        network12.speed = 55.0;
+        network12.country = "Spain";
+        network12.status = "Active";
+
+        System.out.println("\nNetwork Details:");
+        System.out.println("Name: " + network12.name);
+        System.out.println("Type: " + network12.type);
+        System.out.println("Speed: " + network12.speed + " Mbps");
+        System.out.println("Country: " + network12.country);
+        System.out.println("Status: " + network12.status);
+
+        Network network13 = new Network();
+        network13.name = "KPN";
+        network13.type = "4G";
+        network13.speed = 45.0;
+        network13.country = "Netherlands";
+        network13.status = "Active";
+
+        System.out.println("\nNetwork Details:");
+        System.out.println("Name: " + network13.name);
+        System.out.println("Type: " + network13.type);
+        System.out.println("Speed: " + network13.speed + " Mbps");
+        System.out.println("Country: " + network13.country);
+        System.out.println("Status: " + network13.status);
+
+        Network network14 = new Network();
+        network14.name = "TIM";
+        network14.type = "5G";
+        network14.speed = 180.0;
+        network14.country = "Italy";
+        network14.status = "Active";
+
+        System.out.println("\nNetwork Details:");
+        System.out.println("Name: " + network14.name);
+        System.out.println("Type: " + network14.type);
+        System.out.println("Speed: " + network14.speed + " Mbps");
+        System.out.println("Country: " + network14.country);
+        System.out.println("Status: " + network14.status);
+
+        Network network15 = new Network();
+        network15.name = "Etisalat";
+        network15.type = "5G";
+        network15.speed = 190.0;
+        network15.country = "UAE";
+        network15.status = "Active";
+
+        System.out.println("\nNetwork Details:");
+        System.out.println("Name: " + network15.name);
+        System.out.println("Type: " + network15.type);
+        System.out.println("Speed: " + network15.speed + " Mbps");
+        System.out.println("Country: " + network15.country);
+        System.out.println("Status: " + network15.status);
+    }
+}
