@@ -1,8 +1,23 @@
 public class Weapon {
+    Weapon(String type, double weight) {
+        this.type = type;
+    }
+
+    Weapon(int range) {
+        this.range = range;
+    }
+
+    Weapon(boolean isAutomatic) {
+        this.isAutomatic = isAutomatic;
+    }
+
+    Weapon(String originCountry) {
+        this.originCountry = originCountry;
+    }
+
     String type;
-    String name;
-    String material;
     double weight;
-    String range;
-    String origin;
+    int range;
+    boolean isAutomatic;
+    String originCountry;
 }

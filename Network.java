@@ -1,7 +1,23 @@
 public class Network {
-    String provider;
+    Network(String name, String type) {
+        this.name = name;
+    }
+
+    Network(int speed) {
+        this.speed = speed;
+    }
+
+    Network(boolean isWireless) {
+        this.isWireless = isWireless;
+    }
+
+    Network(String securityProtocol) {
+        this.securityProtocol = securityProtocol;
+    }
+
+    String name;
     String type;
-    double speed;
-    String region;
-    String frequency;
+    int speed;
+    boolean isWireless;
+    String securityProtocol;
 }

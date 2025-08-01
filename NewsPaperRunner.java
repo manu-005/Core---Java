@@ -1,28 +1,43 @@
 public class NewsPaperRunner {
     public static void main (String[] ar){
         NewsPaper news =new NewsPaper();
-
-        
-        System.out.println("The NewsPapaer Id is :"+news.newsPaperId);
-        System.out.println("The NewsPapaer Id is :"+news.company);
-         System.out.println("The NewsPapaer Id is :"+news.noPages);
-        System.out.println("The NewsPapaer Id is :"+news.day);
-         System.out.println("The NewsPapaer Id is :"+news.date);
-       
-// ceate desion 6 7 variables, each design 25 copies, 
-        news.newsPaperId=1;
-        news.company="Times of India";
-        news.date="12-07-2025";
-        news.day="Monday";
-        news.noPages=22;
-
-        System.out.println("The NewsPapaer Id is :"+news.newsPaperId);
-        System.out.println("The NewsPapaer Id is :"+news.company);
-         System.out.println("The NewsPapaer Id is :"+news.noPages);
-        System.out.println("The NewsPapaer Id is :"+news.day);
-         System.out.println("The NewsPapaer Id is :"+news.date);
-         
-       
-
-    }
-}
+        news.display();
+        NewsPaper news1 =new NewsPaper();
+        news1.display();
+        NewsPaper news2 =new NewsPaper();
+        news2.display();
+        NewsPaper news3 =new NewsPaper();
+        news3.display();
+        NewsPaper news4 =new NewsPaper();
+        news4.display();
+        NewsPaper news5 =new NewsPaper();
+        news5.display();
+        NewsPaper news6 =new NewsPaper();
+        news6.display();
+        NewsPaper news7 =new NewsPaper();
+        news7.display();
+        NewsPaper news8 =new NewsPaper();
+        news8.display();
+        NewsPaper news9 =new NewsPaper();
+        news9.display();
+        NewsPaper news10 =new NewsPaper();
+        news10.display();
+        NewsPaper news11 =new NewsPaper();
+        news11.display();
+        NewsPaper news12 =new NewsPaper();
+        news12.display();
+        NewsPaper news13 =new NewsPaper();
+        news13.display();
+        NewsPaper news14 =new NewsPaper();
+        news14.display();
+        NewsPaper news15 =new NewsPaper();
+        news15.display();
+        NewsPaper news16 =new NewsPaper();
+        news16.display();
+        NewsPaper news17 =new NewsPaper();
+        news17.display();
+        NewsPaper news18 =new NewsPaper();
+        news18.display();
+        NewsPaper news19 =new NewsPaper();
+        news19.display();
+    }   }

@@ -1,10 +1,27 @@
+
 public class King {
+    King(String name, String kingdom) {
+        this.name = name;
+    }
+
+    King(int reignYears) {
+        this.reignYears = reignYears;
+    }
+
+    King(boolean isCurrent) {
+        this.isCurrent = isCurrent;
+    }
+
+    King(String dynasty) {
+        this.dynasty = dynasty;
+    }
+
     String name;
-    String dynasty;
-    int reignYears;
     String kingdom;
-    String spouse;
-    int reignStart;
-    int reignEnd;
-    String knownFor;
+    int reignYears;
+    boolean isCurrent;
+    String dynasty;
 }
+
+// Flowers.java
+// Karate.java

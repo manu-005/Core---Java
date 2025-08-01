@@ -1,10 +1,24 @@
+
 public class Karate {
-    String style;
+    Karate(String beltColor, int level) {
+        this.beltColor = beltColor;
+    }
+
+    Karate(boolean isCompetitive) {
+        this.isCompetitive = isCompetitive;
+    }
+
+    Karate(String dojo) {
+        this.dojo = dojo;
+    }
+
+    Karate(int trainingHours) {
+        this.trainingHours = trainingHours;
+    }
+
+    String beltColor;
     int level;
-    String beltLevel;
-    String belt;
-    String dojoName;
-    String instructor;
-    int experienceYears;
-    String origin;
+    boolean isCompetitive;
+    String dojo;
+    int trainingHours;
 }
