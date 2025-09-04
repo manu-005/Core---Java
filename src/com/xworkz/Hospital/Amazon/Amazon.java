@@ -2,7 +2,7 @@ package com.xworkz.Hospital.Amazon;
 
 public class Amazon {
 
-    Product[] products = new Product[2];
+    Product[] products = new Product[5];
     int index;
 
     public boolean addProduct(Product product) {
